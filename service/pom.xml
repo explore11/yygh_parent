@@ -14,16 +14,17 @@
 
     <modules>
         <module>service_user</module>
+        <module>service_hosp</module>
     </modules>
 
     <dependencies>
         <dependency>
-            <groupId>com.atguigu</groupId>
+            <groupId>com.song</groupId>
             <artifactId>model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>com.atguigu</groupId>
+            <groupId>com.song</groupId>
             <artifactId>service_util</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
