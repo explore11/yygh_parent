@@ -201,9 +201,9 @@ public class ApiController {
         String signKeyMd5 = MD5.encrypt(signKey);
 
         //4 判断签名是否一致
-        if(!hospSign.equals(signKeyMd5)) {
-            throw new YyghException(ResultCodeEnum.SIGN_ERROR);
-        }
+//        if(!hospSign.equals(signKeyMd5)) {
+//            throw new YyghException(ResultCodeEnum.SIGN_ERROR);
+//        }
 
         //传输过程中“+”转换为了“ ”，因此我们要转换回来
         String logoData = (String)paramMap.get("logoData");

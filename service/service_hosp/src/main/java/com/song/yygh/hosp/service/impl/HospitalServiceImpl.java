@@ -19,7 +19,7 @@ public class HospitalServiceImpl implements HospitalService {
     @Autowired
     private HospitalRepository hospitalRepository;
 
-    @Autowired
+//    @Autowired
 //    private DictFeignClient dictFeignClient;
 
     @Override

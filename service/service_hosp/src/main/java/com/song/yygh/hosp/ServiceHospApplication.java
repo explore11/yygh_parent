@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.song")
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 //@EnableFeignClients(basePackages = "com.song")
 public class ServiceHospApplication {
     public static void main(String[] args) {
