@@ -38,10 +38,8 @@ public class MsmApiController {
         code="111111";
         //调用service方法，通过整合短信服务进行发送
 //        boolean isSend = msmService.send(phone,code);
-        boolean isSend = msmService.send(phone,code);
-        isSend = true;
         //生成验证码放到redis里面，设置有效时间
-        if(isSend) {
+        if(true) {
             redisTemplate.opsForValue().set(phone,code,2, TimeUnit.MINUTES);
             return Result.ok();
         } else {

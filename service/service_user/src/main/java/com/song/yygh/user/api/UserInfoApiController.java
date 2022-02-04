@@ -27,7 +27,7 @@ public class UserInfoApiController {
     }
 
     //用户认证接口
-    @PostMapping("auth/userAuth")
+    @PostMapping("auth/userAuah")
     public Result userAuth(@RequestBody UserAuthVo userAuthVo, HttpServletRequest request) {
         //传递两个参数，第一个参数用户id，第二个参数认证数据vo对象
         userInfoService.userAuth(AuthContextHolder.getUserId(request),userAuthVo);
